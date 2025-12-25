@@ -79,7 +79,7 @@ I build with SQL, explore real-world problems, and level up every day through Da
             title: "CS50 Finance",
             description: "A stock trading simulator that lets users trade stocks with real-world market data.",
             longDescription: "A full-stack web application built for CS50x. It features user authentication, a virtual cash balance, and real-time stock price integration via the Massive (Polygon.io) API. Users can search for stock quotes, buy and sell shares, and view their transaction history.",
-            image: "/finance-cs50.png",
+            image: "/images/finance-cs50.png",
             techStack: ["Python", "Flask", "SQLite", "Massive API"],
             category: "Web Development",
             featured: true,
@@ -92,11 +92,11 @@ I build with SQL, explore real-world problems, and level up every day through Da
             title: "Minesweeper UP",
             description: "A Python implementation of classic Minesweeper with a unique power-up mechanic.",
             longDescription: "Developed as a graduation project for UP Diliman. It features a custom 7x7 grid, auto-reveal flood-fill algorithm, and a unique 'Defuser' power-up that clears a 3x3 area. Built with Python and focuses on algorithmic efficiency and game state management.",
-            image: "/minesweeper-up.png",
+            image: "/images/minesweeper-up.png",
             techStack: ["Python", "Algorithms", "Game Dev"],
             category: "Software Engineering",
             featured: true,
-            demoUrl: "/minesweeper-up.png",
+            demoUrl: "/images/minesweeper-up.png",
             repoUrl: "https://github.com/OrangeJuice023/minesweeper-up",
             status: "Completed"
         }
