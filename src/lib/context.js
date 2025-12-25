@@ -69,7 +69,7 @@ I build with SQL, explore real-world problems, and level up every day through Da
             image: "/images/cs50-birthdays.png",
             techStack: ["Python", "Flask", "SQLite", "HTML/CSS"],
             category: "Web Development",
-            featured: true,
+            featured: false,
             demoUrl: "http://127.0.0.1:5000",
             repoUrl: null,
             status: "Completed"
