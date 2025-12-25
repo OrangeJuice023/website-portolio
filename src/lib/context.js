@@ -96,7 +96,7 @@ I build with SQL, explore real-world problems, and level up every day through Da
             techStack: ["Python", "Algorithms", "Game Dev"],
             category: "Software Engineering",
             featured: true,
-            demoUrl: null,
+            demoUrl: "https://github.com/OrangeJuice023/minesweeper-up",
             repoUrl: "https://github.com/OrangeJuice023/minesweeper-up",
             status: "Completed"
         }
