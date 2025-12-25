@@ -150,6 +150,20 @@ I build with SQL, explore real-world problems, and level up every day through Da
         }
     ],
 
+    // Certifications
+    certifications: [
+        {
+            id: 1,
+            title: "CS50x: CS50's Introduction to Computer Science",
+            issuer: "HarvardX",
+            date: "Issued Jan 2022",
+            credentialId: "09ac1fa5bd334e7398b922bd7a912c41",
+            skills: ["Python", "MySQL", "C#", "JavaScript"],
+            image: "/images/cs50-cert.png",
+            url: "https://certificates.cs50.io/09ac1fa5bd334e7398b922bd7a912c41"
+        }
+    ],
+
     // Experience/Education
     education: {
         current: {
@@ -219,6 +233,11 @@ PROJECTS (All Completed):
 DASHBOARDS:
 - Production Order Quality Dashboard (Looker Studio) - Active
 - Multiple analytics projects currently in the pipeline.
+
+CERTIFICATIONS:
+1. **CS50x: CS50's Introduction to Computer Science** (HarvardX, 2022)
+   - Skills: Python, MySQL, C#, JavaScript
+   - Credential ID: 09ac1fa5bd334e7398b922bd7a912c41
 
 CONTACT:
 - Email: gervicorado@yahoo.com
