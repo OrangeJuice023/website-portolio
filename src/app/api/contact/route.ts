@@ -1,8 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-// Initialize Resend with API key
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Helper to get Resend instance safely
+const getResend = () => {
+    const apiKey = process.env.RESEND_API_KEY;
+    if (!apiKey) return null;
+    return new Resend(apiKey);
+};
 
 export async function POST(request: NextRequest) {
     try {
@@ -35,6 +39,11 @@ export async function POST(request: NextRequest) {
         }
 
         // Send email using Resend
+        const resend = getResend();
+        if (!resend) {
+            throw new Error('Resend initialization failed');
+        }
+
         const { data, error } = await resend.emails.send({
             from: 'Portfolio Contact <onboarding@resend.dev>', // Use your verified domain in production
             to: ['gervicorado@yahoo.com'],
