@@ -47,9 +47,9 @@ export default function ProjectCard({ project, index = 0 }: ProjectCardProps) {
 
                 {/* Status badge */}
                 {project.status && (
-                    <div className={`absolute top-4 right-4 px-3 py-1 rounded-full text-xs font-semibold ${project.status === 'Completed'
-                        ? 'bg-primary text-white'
-                        : 'bg-warm-gold text-dark-charcoal'
+                    <div className={`absolute top-4 right-4 px-3 py-1.5 rounded-full text-[10px] md:text-xs font-bold uppercase tracking-wider whitespace-nowrap z-10 ${project.status === 'Completed'
+                        ? 'bg-primary text-white shadow-lg'
+                        : 'bg-warm-gold text-dark-charcoal shadow-lg'
                         }`}>
                         {project.status}
                     </div>
@@ -57,7 +57,7 @@ export default function ProjectCard({ project, index = 0 }: ProjectCardProps) {
 
                 {/* Featured badge */}
                 {project.featured && (
-                    <div className="absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-semibold bg-earth-brown text-white">
+                    <div className="absolute top-4 left-4 px-3 py-1.5 rounded-full text-[10px] md:text-xs font-bold uppercase tracking-wider bg-earth-brown text-white shadow-lg whitespace-nowrap flex items-center gap-1 z-10">
                         ⭐ Featured
                     </div>
                 )}
