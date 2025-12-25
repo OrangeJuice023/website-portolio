@@ -99,6 +99,19 @@ I build with SQL, explore real-world problems, and level up every day through Da
             demoUrl: "/images/minesweeper-up.png",
             repoUrl: "https://github.com/OrangeJuice023/minesweeper-up",
             status: "Completed"
+        },
+        {
+            id: 5,
+            title: "My Hero Academia - CS50P",
+            description: "A Python-based RPG battle system featuring turn-based combat, quirks, and leveling.",
+            longDescription: "Developed for CS50P (Introduction to Programming with Python). Features a dynamic battle system where heroes can use Quirks, evade attacks, or heal. Includes a XP/leveling system, multiple locations, and various villains. Built using Flask and Python logic.",
+            image: "/images/mha-rpg.png",
+            techStack: ["Python", "Flask", "Game Logic", "CSS"],
+            category: "Software Engineering",
+            featured: true,
+            demoUrl: "/images/mha-rpg.png",
+            repoUrl: null,
+            status: "Completed"
         }
     ],
 
@@ -228,7 +241,8 @@ PROJECTS (All Completed):
 1. **Portfolio Website**: Modern personal site with Gemini AI integration (Next.js, Tailwind).
 2. **CS50x Birthdays**: Flask app for tracking birthdays using SQLite.
 3. **CS50 Finance**: Full-stack stock simulator using Python/Flask and Massive (Polygon.io) API.
-4. **Minesweeper UP**: Python game with a custom power-up mechanic, built as a project for UP Diliman.
+4. **Minesweeper UP**: Python game with a custom power-up mechanic for UP Diliman.
+5. **My Hero Academia - CS50P**: Python RPG battle system with quirks and leveling (Flask/Python).
 
 DASHBOARDS:
 - Production Order Quality Dashboard (Looker Studio) - Active
