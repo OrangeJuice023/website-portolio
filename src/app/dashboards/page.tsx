@@ -43,6 +43,8 @@ export default function DashboardsPage() {
                 </div>
             </section>
 
+            <div className="w-full h-8 block"></div>
+
             {/* Dashboards Grid */}
             <section className="container mx-auto px-6">
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -95,9 +97,12 @@ export default function DashboardsPage() {
                 </div>
             </section>
 
+            {/* Spacer */}
+            <div className="w-full h-12 block"></div>
+
             {/* CTA Section */}
-            <section className="container mx-auto px-6 mt-12">
-                <div className="card bg-gradient-to-br from-warm-gold/10 to-primary/10 text-center py-12">
+            <section className="container mx-auto px-6 mt-12 mb-24 flex justify-center">
+                <div className="card bg-gradient-to-br from-warm-gold/10 to-primary/10 flex flex-col items-center text-center py-12 w-full max-w-3xl">
                     <h2 className="text-2xl font-bold text-dark-charcoal mb-4">
                         Need a custom dashboard?
                     </h2>

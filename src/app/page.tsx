@@ -115,7 +115,7 @@ export default function Home() {
       </section>
 
       {/* Featured Dashboards */}
-      <section className="section bg-background">
+      <section className="section bg-gradient-to-b from-primary/5 to-warm-gold/5">
         <div className="container mx-auto px-6">
           <div className="flex items-end justify-between mb-10">
             <div>

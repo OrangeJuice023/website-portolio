@@ -57,7 +57,7 @@ export default function DashboardCard({ dashboard, index = 0 }: DashboardCardPro
                 {/* Hover overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-dark-charcoal/80 via-dark-charcoal/40 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300">
                     <div className="absolute bottom-4 left-4 right-4">
-                        {dashboard.previewUrl && (
+                        {dashboard.previewUrl && dashboard.previewUrl !== '#' && (
                             <a
                                 href={dashboard.previewUrl}
                                 target="_blank"

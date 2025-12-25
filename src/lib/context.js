@@ -57,35 +57,35 @@ I build with SQL, explore real-world problems, and level up every day through Da
             techStack: ["Next.js", "TailwindCSS", "Gemini AI", "TypeScript"],
             category: "Web Development",
             featured: true,
-            demoUrl: "#",
+            demoUrl: "/images/portfolio-preview.jpg",
             repoUrl: "https://github.com/OrangeJuice023/portfolio",
             status: "In Progress"
         },
         {
             id: 2,
-            title: "Work in Progress",
-            description: "Exciting new project currently under development.",
-            longDescription: "This project is currently being built. Check back soon for updates.",
-            image: "/images/placeholder-project.jpg",
-            techStack: ["Coming Soon"],
-            category: "Development",
-            featured: false,
-            demoUrl: null,
+            title: "CS50x Birthdays",
+            description: "A Flask web application to track friends' birthdays using SQLite.",
+            longDescription: "Built as part of CS50x. Features a SQLite database, Flask backend, and Jinja2 templating. Allows users to add and view birthdays persistently.",
+            image: "/images/cs50-birthdays.png",
+            techStack: ["Python", "Flask", "SQLite", "HTML/CSS"],
+            category: "Web Development",
+            featured: true,
+            demoUrl: "http://127.0.0.1:5000",
             repoUrl: null,
-            status: "In Progress"
+            status: "Completed"
         },
         {
             id: 3,
-            title: "Work in Progress",
-            description: "Another innovative project in the pipeline.",
-            longDescription: "This project is currently being built. Check back soon for updates.",
-            image: "/images/placeholder-project.jpg",
-            techStack: ["Coming Soon"],
-            category: "Development",
-            featured: false,
-            demoUrl: null,
+            title: "CS50 Finance",
+            description: "A stock trading simulator that lets users trade stocks with real-world market data.",
+            longDescription: "A full-stack web application built for CS50x. It features user authentication, a virtual cash balance, and real-time stock price integration via the Massive (Polygon.io) API. Users can search for stock quotes, buy and sell shares, and view their transaction history.",
+            image: "/finance-cs50.png",
+            techStack: ["Python", "Flask", "SQLite", "Massive API"],
+            category: "Web Development",
+            featured: true,
+            demoUrl: "http://127.0.0.1:5002",
             repoUrl: null,
-            status: "In Progress"
+            status: "Completed"
         }
     ],
 
@@ -99,7 +99,7 @@ I build with SQL, explore real-world problems, and level up every day through Da
             tool: "Looker Studio",
             category: "Operations",
             featured: true,
-            previewUrl: "#",
+            previewUrl: "/images/production-quality-dashboard.jpg",
             metrics: ["Order Quality", "Firming Trends", "Error Rates", "Material Breakdown"]
         },
         {
@@ -194,18 +194,17 @@ ABOUT GERVI:
 TECHNICAL SKILLS:
 - Main languages: Python (Advanced), SQL (Advanced), JavaScript (Intermediate), R (Intermediate)
 - Data visualization tools: Tableau and Looker Studio
-- Web technologies: Currently learning Next.js, React, Node.js
+- Web technologies: Next.js, React, Node.js (Learning/Building)
 - Other tools: Git, VS Code, Pandas
 
-PROJECTS:
-- Building a modern portfolio website with Next.js and AI chatbot integration
-- Created data analysis pipelines with Python
-- Developed interactive dashboard templates
+PROJECTS (All Completed):
+1. **Portfolio Website**: Modern personal site with Gemini AI integration (Next.js, Tailwind).
+2. **CS50x Birthdays**: Flask app for tracking birthdays using SQLite.
+3. **CS50 Finance**: Full-stack stock simulator using Python/Flask and Massive (Polygon.io) API.
 
 DASHBOARDS:
-- Sales Analytics Dashboard (Tableau)
-- Marketing Performance Tracker (Looker Studio)  
-- Student Performance Analysis (Tableau)
+- Production Order Quality Dashboard (Looker Studio) - Active
+- Multiple analytics projects currently in the pipeline.
 
 CONTACT:
 - Email: gervicorado@yahoo.com

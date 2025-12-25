@@ -27,7 +27,7 @@ export default function ProjectsPage() {
             </section>
 
             {/* Categories */}
-            <section className="container mx-auto px-6 mb-8">
+            <section className="container mx-auto px-6 mb-16">
                 <div className="flex flex-wrap gap-3 animate-fade-in-up delay-200">
                     <button className="tech-tag bg-primary text-white hover:bg-primary-dark">
                         All Projects
@@ -39,6 +39,8 @@ export default function ProjectsPage() {
                     ))}
                 </div>
             </section>
+
+            <div className="w-full h-8 block"></div>
 
             {/* Projects Grid */}
             <section className="container mx-auto px-6">
@@ -61,13 +63,16 @@ export default function ProjectsPage() {
                 )}
             </section>
 
+            {/* Spacer */}
+            <div className="w-full h-12 block"></div>
+
             {/* CTA Section */}
-            <section className="container mx-auto px-6 mt-16">
-                <div className="card bg-gradient-to-br from-primary/10 to-warm-gold/10 text-center py-12">
+            <section className="container mx-auto px-6 mt-12 mb-24 flex justify-center">
+                <div className="card bg-gradient-to-br from-primary/10 to-warm-gold/10 flex flex-col items-center text-center py-12 w-full max-w-3xl">
                     <h2 className="text-2xl font-bold text-dark-charcoal mb-4">
                         Interested in collaborating?
                     </h2>
-                    <p className="text-gray-600 mb-6 max-w-md mx-auto">
+                    <p className="text-gray-600 mb-6 max-w-md mx-auto text-center">
                         I&apos;m always open to new opportunities and interesting projects.
                         Let&apos;s build something amazing together!
                     </p>

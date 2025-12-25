@@ -78,7 +78,7 @@ export default function ContactForm() {
                     <div className="space-y-12">
                         {/* Contact info grid */}
                         <div className="grid md:grid-cols-3 gap-6">
-                            <div className="card text-center p-6 hover:translate-y-[-5px] transition-transform">
+                            <div className="card flex flex-col items-center text-center p-6 hover:translate-y-[-5px] transition-transform">
                                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mx-auto mb-4">
                                     <svg className="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -93,7 +93,7 @@ export default function ContactForm() {
                                 </a>
                             </div>
 
-                            <div className="card text-center p-6 hover:translate-y-[-5px] transition-transform">
+                            <div className="card flex flex-col items-center text-center p-6 hover:translate-y-[-5px] transition-transform">
                                 <div className="w-12 h-12 rounded-lg bg-warm-gold/10 flex items-center justify-center mx-auto mb-4">
                                     <svg className="w-6 h-6 text-warm-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -104,7 +104,7 @@ export default function ContactForm() {
                                 <p className="text-gray-600 text-sm">Philippines</p>
                             </div>
 
-                            <div className="card text-center p-6 hover:translate-y-[-5px] transition-transform">
+                            <div className="card flex flex-col items-center text-center p-6 hover:translate-y-[-5px] transition-transform">
                                 <div className="w-12 h-12 rounded-lg bg-earth-brown/10 flex items-center justify-center mx-auto mb-4">
                                     <svg className="w-6 h-6 text-earth-brown" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
