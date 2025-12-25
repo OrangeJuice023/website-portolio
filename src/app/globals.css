@@ -377,13 +377,17 @@ a:hover {
 
 /* Tech stack tags */
 .tech-tag {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 4rem;
   padding: 0.25rem 0.75rem;
   background: rgba(46, 139, 87, 0.1);
   color: var(--primary);
   border-radius: 9999px;
-  font-size: 0.875rem;
-  font-weight: 500;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  white-space: nowrap;
   transition: all 0.3s ease;
 }
 
