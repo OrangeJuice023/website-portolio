@@ -86,6 +86,19 @@ I build with SQL, explore real-world problems, and level up every day through Da
             demoUrl: "http://127.0.0.1:5002",
             repoUrl: null,
             status: "Completed"
+        },
+        {
+            id: 4,
+            title: "Minesweeper UP",
+            description: "A Python implementation of classic Minesweeper with a unique power-up mechanic.",
+            longDescription: "Developed as a graduation project for UP Diliman. It features a custom 7x7 grid, auto-reveal flood-fill algorithm, and a unique 'Defuser' power-up that clears a 3x3 area. Built with Python and focuses on algorithmic efficiency and game state management.",
+            image: "/minesweeper-up.png",
+            techStack: ["Python", "Algorithms", "Game Dev"],
+            category: "Software Engineering",
+            featured: true,
+            demoUrl: null,
+            repoUrl: "https://github.com/OrangeJuice023/minesweeper-up",
+            status: "Completed"
         }
     ],
 
@@ -201,6 +214,7 @@ PROJECTS (All Completed):
 1. **Portfolio Website**: Modern personal site with Gemini AI integration (Next.js, Tailwind).
 2. **CS50x Birthdays**: Flask app for tracking birthdays using SQLite.
 3. **CS50 Finance**: Full-stack stock simulator using Python/Flask and Massive (Polygon.io) API.
+4. **Minesweeper UP**: Python game with a custom power-up mechanic, built as a project for UP Diliman.
 
 DASHBOARDS:
 - Production Order Quality Dashboard (Looker Studio) - Active
